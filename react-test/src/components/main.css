@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card{
+      min-height: 175px;
+      min-width: 600px;
+      border-bottom: solid 2px black;
+  }
+
+  .image{
+      float: left;
+      width: 50%;
+  }
+
+  .info{
+      float: right;
+      width: 50%;
+  }
+
+  .info button{
+      border: none;
+      width: 36%;
+      padding: 10px;
+      background-color: rgb(228, 228, 29);
+      cursor: pointer;
+  }
+
